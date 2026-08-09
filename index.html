@@ -3,16 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Chahat | DevOps Engineer</title>
+
   <link rel="stylesheet" href="style.css">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Particles -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+  <script defer src="script.js"></script>
 </head>
+
 <body>
 
-<!-- Navbar -->
+<div id="particles-js"></div>
+
 <header>
-  <h2 class="logo">Chahat</h2>
+  <h2 class="logo">Chahat.dev</h2>
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -22,68 +30,66 @@
   </nav>
 </header>
 
-<!-- Hero -->
+<!-- HERO -->
 <section id="home" class="hero">
   <div class="hero-content">
+    <img src="profile.jpg" class="profile">
     <h1>Hi, I'm <span>Chahat</span></h1>
-    <h3 class="typing"></h3>
-    <p>DevOps Engineer | Azure | Terraform | CI/CD</p>
-    <a href="#contact" class="btn">Hire Me</a>
+    <h2 class="typing"></h2>
+    <p>Building scalable cloud & DevOps solutions 🚀</p>
+
+    <div class="buttons">
+      <a href="#contact"><button>Hire Me</button></a>
+      <a href="resume.pdf" download><button class="outline">Resume</button></a>
+    </div>
   </div>
 </section>
 
-<!-- About -->
-<section id="about">
+<!-- ABOUT -->
+<section id="about" class="glass">
   <h2>About Me</h2>
   <p>
-    DevOps Engineer with hands-on experience in Azure cloud, Terraform,
-    and CI/CD pipelines. Passionate about automation, cloud security,
-    and building scalable systems.
+    DevOps Engineer passionate about automation, CI/CD pipelines,
+    and cloud infrastructure using Azure & Terraform.
   </p>
 </section>
 
-<!-- Skills -->
+<!-- SKILLS -->
 <section id="skills">
   <h2>Skills</h2>
-  <div class="skills-container">
+  <div class="grid">
     <div class="card">Azure</div>
     <div class="card">Terraform</div>
+    <div class="card">Docker</div>
     <div class="card">CI/CD</div>
-    <div class="card">Python</div>
     <div class="card">Linux</div>
-    <div class="card">GitHub</div>
+    <div class="card">Python</div>
   </div>
 </section>
 
-<!-- Projects -->
+<!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
-
-  <div class="project-card">
-    <h3>Smart Energy System</h3>
-    <p>IoT + Azure based monitoring system</p>
+  <div class="grid">
+    <div class="card">Smart Energy Monitoring System</div>
+    <div class="card">Terraform Landing Zone</div>
+    <div class="card">CI/CD Pipeline (Azure DevOps)</div>
   </div>
-
-  <div class="project-card">
-    <h3>Nail Art Management</h3>
-    <p>Python Tkinter based business system</p>
-  </div>
-
 </section>
 
-<!-- Contact -->
-<section id="contact">
+<!-- CONTACT -->
+<section id="contact" class="glass">
   <h2>Contact</h2>
-  <p>Email: chahattuteja74@gmail.com</p>
-  <p>LinkedIn: linkedin.com/in/chahat-tuteja</p>
+  <p>Email: chahatuteja74@gmail.com</p>
+  <div class="socials">
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 Chahat</p>
+  <p>© 2026 Chahat | DevOps Engineer</p>
 </footer>
-
-<!-- JS -->
-<script src="script.js"></script>
 
 </body>
 </html>
