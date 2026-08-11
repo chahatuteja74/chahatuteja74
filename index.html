@@ -32,67 +32,174 @@
 
 <div id="particles-js"></div>
 
-<!-- HEADER -->
+<!-- ================= NAVBAR ================= -->
 
-<header class="header">
-  <h2 class="logo">Chahat Tuteja</h2>
+<header class="site-header">
 
-  <nav class="navbar">
+  <div class="site-header__logo">
+    Chahat <span>Tuteja</span>
+  </div>
+
+  <nav class="site-header__nav">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
+    <a href="#workflow">Workflow</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </nav>
+
 </header>
 
 <!-- HERO SECTION -->
 
 <section id="home" class="hero">
+
   <div class="hero-container">
 
-```
-<!-- LEFT SIDE -->
-<div class="hero-text">
-  <h4>👋 Hello, I'm</h4>
+    <!-- LEFT SIDE -->
+    <div class="hero-text">
 
-  <h1>Chahat <span>Tuteja</span></h1>
+      <h4>👋 Hello, I'm</h4>
 
-  <h2 class="typing">
-    DevOps Engineer | Azure | Terraform | CI/CD
-  </h2>
+      <h1>Chahat <span>Tuteja</span></h1>
 
-  <p class="hero-tagline"> DevOps Engineer focused on <strong>automation, scalability, and clean cloud architecture</strong>. </p>
+      <h2 class="typing">
+        DevOps Engineer | Azure | Terraform | CI/CD
+      </h2>
 
-<p> I turn complex infrastructure into simple, reliable systems using <strong>Azure, Terraform, and CI/CD pipelines</strong>. My work is driven by one goal — <strong>faster deployments, fewer failures, and zero chaos</strong>. </p>
+      <p class="hero-tagline">
+        DevOps Engineer focused on
+        <strong>automation, scalability, and clean cloud architecture</strong>.
+      </p>
 
-<p> Whether it's automating environments or optimizing workflows, I believe in building solutions that are not just functional — but <strong>production-ready from day one</strong>. </p>
+      <p>
+        I turn complex infrastructure into simple, reliable systems using
+        <strong>Azure, Terraform, and CI/CD pipelines</strong>.
+        My work is driven by one goal —
+        <strong>faster deployments, fewer failures, and zero chaos</strong>.
+      </p>
 
-  <!-- BUTTONS -->
-  <div class="hero-buttons">
-    <a href="#projects" class="btn primary">🚀 Explore Projects</a>
-    <a href="resume.pdf" download class="btn outline">📄 Download Resume</a>
+      <p>
+        Whether it's automating environments or optimizing workflows,
+        I believe in building solutions that are not just functional —
+        but <strong>production-ready from day one</strong>.
+      </p>
+
+
+      <!-- BUTTONS -->
+      <div class="hero-buttons">
+
+        <a href="#projects" class="btn primary">
+          🚀 Explore Projects
+        </a>
+
+        <a href="resume.pdf" download class="btn outline">
+          📄 Download Resume
+        </a>
+
+      </div>
+
+
+      <!-- SOCIAL -->
+      <div class="social-icons">
+
+        <a href="https://linkedin.com/in/chahat-tuteja" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/chahatuteja74" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE → TERMINAL -->
+    <div class="hero-terminal">
+
+      <div class="terminal-header">
+
+        <div class="terminal-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="terminal-title">
+          chahat@devops: ~/portfolio
+        </div>
+
+      </div>
+
+
+      <div class="terminal-body">
+
+        <div>
+          <span class="terminal-command">$ whoami</span>
+        </div>
+
+        <div class="terminal-output">
+          chahat
+        </div>
+
+
+        <div>
+          <span class="terminal-command">$ kubectl get pods</span>
+        </div>
+
+        <div class="terminal-output">
+          NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STATUS<br>
+          api-server&nbsp;&nbsp;
+          <span class="terminal-success">Running</span><br>
+          web-app&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="terminal-success">Running</span>
+        </div>
+
+
+        <div>
+          <span class="terminal-command">$ terraform apply</span>
+        </div>
+
+        <div class="terminal-output">
+          Initializing infrastructure...<br>
+          <span class="terminal-success">
+            Plan: 4 to add, 0 to change
+          </span>
+        </div>
+
+
+        <div>
+          <span class="terminal-command">$ docker ps</span>
+        </div>
+
+        <div class="terminal-output">
+          container&nbsp;&nbsp;&nbsp;&nbsp; status<br>
+          api-service&nbsp;&nbsp;
+          <span class="terminal-success">Up</span><br>
+          nginx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="terminal-success">Up</span>
+        </div>
+
+
+        <div>
+          <span class="terminal-command">$</span>
+          <span class="terminal-cursor"></span>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
-  <!-- SOCIAL -->
-  <div class="social-icons">
-    <a href="https://linkedin.com/in/chahat-tuteja" target="_blank">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="https://github.com/your-username" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
-  </div>
-</div>
-
-<!-- RIGHT SIDE IMAGE -->
-<div class="hero-image">
-  <img src="profile.jpg" alt="Chahat">
-</div>
-
-  </div>
 </section>
+
+
 
 
 <!-- ABOUT SECTION -->
@@ -165,18 +272,17 @@
     <p>Automation Focus</p>
   </div>
 
-</div>
-
-  </div>
+ </div>
 </section>
 
 
-<!-- SKILLS SECTION (PRO VERSION) -->
+
+
+<!-- SKILLS SECTION  -->
 
 <section id="skills" class="skills-section">
   <div class="container">
 
-```
 <h2 class="section-title">Core Technical Expertise</h2>
 <p class="section-subtitle">
   A comprehensive stack focused on building scalable, automated, and secure cloud-native systems
@@ -184,89 +290,277 @@
 
 <div class="skills-wrapper">
 
+  <div class="skills-table-header">
+    <div>DOMAIN</div>
+    <div>EXPERTISE</div>
+  </div>
+
   <!-- CLOUD -->
   <div class="skill-box">
-    <h3>☁️ Cloud Platforms</h3>
-    <ul>
-      <li>Microsoft Azure (Virtual Machines, Storage Accounts, Networking, Monitoring)</li>
-      <li>Azure CLI & Portal for resource management</li>
-      <li>Basic understanding of cloud architecture & cost optimization</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>☁️ Cloud Platforms</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Microsoft Azure</div>
+
+      <div class="skill-progress">
+        <span style="width: 88%;"></span>
+      </div>
+
+      <ul>
+        <li>Microsoft Azure (Virtual Machines, Storage Accounts, Networking, Monitoring)</li>
+        <li>Azure CLI & Portal for resource management</li>
+        <li>Basic understanding of cloud architecture & cost optimization</li>
+      </ul>
+    </div>
   </div>
 
   <!-- INFRASTRUCTURE -->
   <div class="skill-box">
-    <h3>🏗️ Infrastructure as Code (IaC)</h3>
-    <ul>
-      <li>Terraform (Resource provisioning, modules, reusable code)</li>
-      <li>State management & remote backend concepts</li>
-      <li>Infrastructure automation & environment consistency</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>🏗️ Infrastructure as Code (IaC)</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Terraform</div>
+
+      <div class="skill-progress">
+        <span style="width: 82%;"></span>
+      </div>
+
+      <ul>
+        <li>Terraform (Resource provisioning, modules, reusable code)</li>
+        <li>State management & remote backend concepts</li>
+        <li>Infrastructure automation & environment consistency</li>
+      </ul>
+    </div>
   </div>
 
   <!-- CI/CD -->
   <div class="skill-box">
-    <h3>⚙️ CI/CD & Automation</h3>
-    <ul>
-      <li>Designing and implementing CI/CD pipelines</li>
-      <li>Automated build, test, and deployment workflows</li>
-      <li>Continuous integration & delivery best practices</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>⚙️ CI/CD & Automation</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">CI/CD</div>
+
+      <div class="skill-progress">
+        <span style="width: 86%;"></span>
+      </div>
+
+      <ul>
+        <li>Designing and implementing CI/CD pipelines</li>
+        <li>Automated build, test, and deployment workflows</li>
+        <li>Continuous integration & delivery best practices</li>
+      </ul>
+    </div>
   </div>
 
   <!-- DEVSECOPS -->
   <div class="skill-box">
-    <h3>🔐 DevSecOps & Security</h3>
-    <ul>
-      <li>Static code & infrastructure scanning</li>
-      <li>Tools: TFLint, TFSec, GitLeaks, Infracost</li>
-      <li>Security-first approach in deployment pipelines</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>🔐 DevSecOps & Security</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Security & Scanning</div>
+
+      <div class="skill-progress">
+        <span style="width: 72%;"></span>
+      </div>
+
+      <ul>
+        <li>Static code & infrastructure scanning</li>
+        <li>Tools: TFLint, TFSec, GitLeaks, Infracost</li>
+        <li>Security-first approach in deployment pipelines</li>
+      </ul>
+    </div>
   </div>
 
   <!-- OS -->
   <div class="skill-box">
-    <h3>💻 Operating Systems</h3>
-    <ul>
-      <li>Linux (CLI operations, process management)</li>
-      <li>Windows environment handling</li>
-      <li>Shell scripting for automation tasks</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>💻 Operating Systems</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Linux & Windows</div>
+
+      <div class="skill-progress">
+        <span style="width: 78%;"></span>
+      </div>
+
+      <ul>
+        <li>Linux (CLI operations, process management)</li>
+        <li>Windows environment handling</li>
+        <li>Shell scripting for automation tasks</li>
+      </ul>
+    </div>
   </div>
 
   <!-- PROGRAMMING -->
   <div class="skill-box">
-    <h3>👨‍💻 Programming</h3>
-    <ul>
-      <li>Python (Automation scripts, OOP, Tkinter GUI)</li>
-      <li>Problem-solving & scripting for DevOps tasks</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>👨‍💻 Programming</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Python</div>
+
+      <div class="skill-progress">
+        <span style="width: 70%;"></span>
+      </div>
+
+      <ul>
+        <li>Python (Automation scripts, OOP, Tkinter GUI)</li>
+        <li>Problem-solving & scripting for DevOps tasks</li>
+      </ul>
+    </div>
   </div>
 
   <!-- VERSION CONTROL -->
   <div class="skill-box">
-    <h3>🔁 Version Control</h3>
-    <ul>
-      <li>Git & GitHub workflows</li>
-      <li>Branching strategies, Pull Requests, Code Reviews</li>
-      <li>Collaboration in team environments</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>🔁 Version Control</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Git & GitHub</div>
+
+      <div class="skill-progress">
+        <span style="width: 82%;"></span>
+      </div>
+
+      <ul>
+        <li>Git & GitHub workflows</li>
+        <li>Branching strategies, Pull Requests, Code Reviews</li>
+        <li>Collaboration in team environments</li>
+      </ul>
+    </div>
   </div>
 
   <!-- TOOLS -->
   <div class="skill-box">
-    <h3>🧰 Tools & Ecosystem</h3>
-    <ul>
-      <li>Azure DevOps / GitHub Actions (CI/CD platforms)</li>
-      <li>DevOps toolchain integration</li>
-      <li>Monitoring & logging basics</li>
-    </ul>
+    <div class="skill-domain">
+      <h3>🧰 Tools & Ecosystem</h3>
+    </div>
+
+    <div class="skill-content">
+      <div class="skill-name">Azure DevOps / GitHub Actions</div>
+
+      <div class="skill-progress">
+        <span style="width: 75%;"></span>
+      </div>
+
+      <ul>
+        <li>Azure DevOps / GitHub Actions (CI/CD platforms)</li>
+        <li>DevOps toolchain integration</li>
+        <li>Monitoring & logging basics</li>
+      </ul>
+    </div>
   </div>
 
 </div>
-```
+
+  
+</section>
+
+<!-- ================= DEVOPS WORKFLOW ================= -->
+
+<section id="workflow" class="workflow-section">
+
+  <div class="container">
+
+    <h2 class="section-title">My DevOps Workflow</h2>
+
+    <p class="section-subtitle">
+      From code to cloud — an automated workflow focused on reliability,
+      security, and continuous delivery
+    </p>
+
+    <div class="workflow">
+
+      <!-- CODE -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">01</span>
+          <h3>CODE</h3>
+          <p>Git • GitHub</p>
+        </div>
+      </div>
+
+      <span class="workflow-arrow">→</span>
+
+      <!-- PLAN -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">02</span>
+          <h3>PLAN</h3>
+          <p>Terraform • IaC</p>
+        </div>
+      </div>
+
+      <span class="workflow-arrow">→</span>
+
+      <!-- VALIDATE -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">03</span>
+          <h3>VALIDATE</h3>
+          <p>TFLint • TFSec<br>GitLeaks</p>
+        </div>
+      </div>
+
+      <span class="workflow-arrow">→</span>
+
+      <!-- BUILD -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">04</span>
+          <h3>BUILD</h3>
+          <p>CI Pipeline • Testing</p>
+        </div>
+      </div>
+
+      <span class="workflow-arrow">→</span>
+
+      <!-- DEPLOY -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">05</span>
+          <h3>DEPLOY</h3>
+          <p>GitHub Actions • CD</p>
+        </div>
+      </div>
+
+      <span class="workflow-arrow">→</span>
+
+      <!-- CLOUD -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">06</span>
+          <h3>CLOUD</h3>
+          <p>Microsoft Azure</p>
+        </div>
+      </div>
+
+      <span class="workflow-arrow">→</span>
+
+      <!-- MONITOR -->
+      <div class="workflow-step">
+        <div class="workflow-box">
+          <span class="workflow-number">07</span>
+          <h3>MONITOR</h3>
+          <p>Logs • Metrics<br>Monitoring</p>
+        </div>
+      </div>
+
+    </div>
 
   </div>
+
 </section>
 
 <!-- PROJECTS SECTION -->
@@ -274,296 +568,655 @@
 <section id="projects" class="projects-section">
   <div class="container">
 
-```
-<h2 class="section-title">Featured Projects</h2>
-<p class="section-subtitle">
-  Real-world implementations focused on automation, cloud infrastructure, and scalable systems
-</p>
+    <h2 class="section-title">Featured Projects</h2>
 
-<div class="projects-wrapper">
-
-  <!-- PROJECT 1 -->
-  <div class="project-card">
-
-    <div class="project-header">
-      <h3>⚡ Smart Energy Management System</h3>
-      <span class="tag">IoT • Azure • Terraform • CI/CD</span>
-    </div>
-
-    <p class="project-desc">
-      Designed and implemented a cloud-based energy monitoring system that collects 
-      real-time data from smart meters and processes it through a centralized Azure platform 
-      for live analytics and optimization.
+    <p class="section-subtitle">
+      Real-world implementations focused on automation, cloud infrastructure, and scalable systems
     </p>
 
-    <ul class="project-points">
-      <li>Architected end-to-end cloud infrastructure on Microsoft Azure</li>
-      <li>Automated 100% infrastructure provisioning using Terraform (IaC)</li>
-      <li>Reduced deployment time from hours to under 10 minutes</li>
-      <li>Designed CI/CD pipelines for consistent multi-environment deployments</li>
-      <li>Enabled scalable data ingestion and monitoring across multiple locations</li>
-    </ul>
+    <div class="projects-wrapper">
 
-    <div class="project-footer">
-      <a href="#" class="btn small">View Code</a>
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 01</span>
+          <span class="tag">IoT • Azure • Terraform • CI/CD</span>
+        </div>
+
+        <div class="project-header">
+          <h3>⚡ Smart Energy Management System</h3>
+        </div>
+
+        <p class="project-desc">
+          Designed and implemented a cloud-based energy monitoring solution for collecting
+          and processing real-time smart-meter data through a centralized Microsoft Azure
+          environment. The system was structured to support continuous monitoring,
+          scalable data ingestion, and operational visibility across multiple locations.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Architected end-to-end cloud infrastructure on Microsoft Azure</li>
+            <li>Automated 100% infrastructure provisioning using Terraform (IaC)</li>
+            <li>Designed reusable infrastructure components for consistent environments</li>
+            <li>Designed CI/CD workflows for automated multi-environment deployments</li>
+            <li>Enabled scalable data ingestion and monitoring across multiple locations</li>
+            <li>Reduced infrastructure deployment time from hours to under 10 minutes</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 02</span>
+          <span class="tag">Azure • Terraform • Security • Governance</span>
+        </div>
+
+        <div class="project-header">
+          <h3>🏗️ Azure Landing Zone Implementation</h3>
+        </div>
+
+        <p class="project-desc">
+          Designed and implemented a structured Azure Landing Zone focused on establishing
+          a secure, governed, and scalable foundation for cloud workloads. The implementation
+          emphasized standardized infrastructure, network segmentation, access control,
+          monitoring, and centralized governance.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Designed hub-and-spoke architecture for network segmentation</li>
+            <li>Implemented role-based access control (RBAC) and policy management</li>
+            <li>Standardized resource deployment using reusable Terraform modules</li>
+            <li>Integrated monitoring, logging, and security controls</li>
+            <li>Created reusable infrastructure templates for consistent environments</li>
+            <li>Established a scalable and governed foundation for Azure workloads</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 03</span>
+          <span class="tag">Azure DevOps • GitHub Actions • DevSecOps</span>
+        </div>
+
+        <div class="project-header">
+          <h3>⚙️ CI/CD Pipeline Automation</h3>
+        </div>
+
+        <p class="project-desc">
+          Developed automated CI/CD workflows to streamline infrastructure and application
+          delivery while integrating security and quality checks directly into the deployment
+          lifecycle. The pipelines were designed to reduce manual intervention and provide
+          consistent, repeatable releases.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Automated build, validation, testing, and deployment stages</li>
+            <li>Designed CI/CD workflows using Azure DevOps and GitHub Actions</li>
+            <li>Integrated TFLint for Terraform code quality and linting</li>
+            <li>Implemented TFSEC for infrastructure security validation</li>
+            <li>Integrated GitLeaks for detecting potential secrets and credential exposure</li>
+            <li>Used Infracost for infrastructure cost visibility during development</li>
+            <li>Reduced manual deployment effort and configuration-related errors</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 4 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 04</span>
+          <span class="tag">Python • Tkinter • Desktop App</span>
+        </div>
+
+        <div class="project-header">
+          <h3>💅 Nail Art Business Management System</h3>
+        </div>
+
+        <p class="project-desc">
+          Developed a desktop-based business management application to digitize day-to-day
+          salon operations. The system centralizes booking, billing, inventory, and customer
+          records into a single application, reducing dependency on manual record keeping.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Built a 4-module GUI application using Python and Tkinter</li>
+            <li>Implemented booking and appointment management functionality</li>
+            <li>Developed inventory management for tracking products and supplies</li>
+            <li>Implemented billing and transaction management functionality</li>
+            <li>Added client/customer record management</li>
+            <li>Designed a user-friendly interface for non-technical users</li>
+            <li>Improved workflow efficiency and reduced manual tracking</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+          </div>
+
+      </div>
+
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 02</span>
+          <span class="tag">Azure • Terraform • Security • Governance</span>
+        </div>
+
+        <div class="project-header">
+          <h3>🏗️ Azure Landing Zone Implementation</h3>
+        </div>
+
+        <p class="project-desc">
+          Designed and implemented a structured Azure Landing Zone focused on establishing
+          a secure, governed, and scalable foundation for cloud workloads. The implementation
+          emphasized standardized infrastructure, network segmentation, access control,
+          monitoring, and centralized governance.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Designed hub-and-spoke architecture for network segmentation</li>
+            <li>Implemented role-based access control (RBAC) and policy management</li>
+            <li>Standardized resource deployment using reusable Terraform modules</li>
+            <li>Integrated monitoring, logging, and security controls</li>
+            <li>Created reusable infrastructure templates for consistent environments</li>
+            <li>Established a scalable and governed foundation for Azure workloads</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 03</span>
+          <span class="tag">Azure DevOps • GitHub Actions • DevSecOps</span>
+        </div>
+
+        <div class="project-header">
+          <h3>⚙️ CI/CD Pipeline Automation</h3>
+        </div>
+
+        <p class="project-desc">
+          Developed automated CI/CD workflows to streamline infrastructure and application
+          delivery while integrating security and quality checks directly into the deployment
+          lifecycle. The pipelines were designed to reduce manual intervention and provide
+          consistent, repeatable releases.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Automated build, validation, testing, and deployment stages</li>
+            <li>Designed CI/CD workflows using Azure DevOps and GitHub Actions</li>
+            <li>Integrated TFLint for Terraform code quality and linting</li>
+            <li>Implemented TFSEC for infrastructure security validation</li>
+            <li>Integrated GitLeaks for detecting potential secrets and credential exposure</li>
+            <li>Used Infracost for infrastructure cost visibility during development</li>
+            <li>Reduced manual deployment effort and configuration-related errors</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+        </div>
+
+      </div>
+      <!-- PROJECT 4 -->
+      <div class="project-card">
+
+        <div class="project-top">
+          <span class="project-number">PROJECT 04</span>
+          <span class="tag">Python • Tkinter • Desktop App</span>
+        </div>
+
+        <div class="project-header">
+          <h3>💅 Nail Art Business Management System</h3>
+        </div>
+
+        <p class="project-desc">
+          Developed a desktop-based business management application to digitize day-to-day
+          salon operations. The system centralizes booking, billing, inventory, and customer
+          records into a single application, reducing dependency on manual record keeping.
+        </p>
+
+        <div class="project-details">
+
+          <div class="project-detail-title">KEY IMPLEMENTATION</div>
+
+          <ul class="project-points">
+            <li>Built a 4-module GUI application using Python and Tkinter</li>
+            <li>Implemented booking and appointment management functionality</li>
+            <li>Developed inventory management for tracking products and supplies</li>
+            <li>Implemented billing and transaction management functionality</li>
+            <li>Added client/customer record management</li>
+            <li>Designed a user-friendly interface for non-technical users</li>
+            <li>Improved workflow efficiency and reduced manual tracking</li>
+          </ul>
+
+        </div>
+
+        <div class="project-footer">
+          <a href="#" class="btn small">View Code ↗</a>
+        </div>
+
+      </div>
+
     </div>
-
-  </div>
-
-  <!-- PROJECT 2 -->
-  <div class="project-card">
-
-    <div class="project-header">
-      <h3>🏗️ Azure Landing Zone Implementation</h3>
-      <span class="tag">Azure • Terraform • Security • Governance</span>
-    </div>
-
-    <p class="project-desc">
-      Built a structured Azure Landing Zone aligned with cloud adoption best practices, 
-      focusing on governance, security, and scalable environment setup.
-    </p>
-
-    <ul class="project-points">
-      <li>Designed hub-and-spoke architecture for network segmentation</li>
-      <li>Implemented role-based access control (RBAC) and policy management</li>
-      <li>Standardized resource deployment using Terraform modules</li>
-      <li>Integrated monitoring, logging, and security controls</li>
-      <li>Created reusable infrastructure templates for consistent environments</li>
-    </ul>
-
-    <div class="project-footer">
-      <a href="#" class="btn small">View Code</a>
-    </div>
-
-  </div>
-
-  <!-- PROJECT 3 -->
-  <div class="project-card">
-
-    <div class="project-header">
-      <h3>⚙️ CI/CD Pipeline Automation</h3>
-      <span class="tag">Azure DevOps • GitHub Actions • DevSecOps</span>
-    </div>
-
-    <p class="project-desc">
-      Developed automated CI/CD pipelines to streamline application delivery, 
-      integrating security scanning and deployment workflows.
-    </p>
-
-    <ul class="project-points">
-      <li>Automated build, test, and deployment stages</li>
-      <li>Integrated DevSecOps tools (TFLint, TFSec, GitLeaks, Infracost)</li>
-      <li>Improved code quality and security posture through automated checks</li>
-      <li>Reduced manual deployment effort and errors</li>
-      <li>Enabled continuous integration and faster release cycles</li>
-    </ul>
-
-    <div class="project-footer">
-      <a href="#" class="btn small">View Code</a>
-    </div>
-
-  </div>
-
-  <!-- PROJECT 4 -->
-  <div class="project-card">
-
-    <div class="project-header">
-      <h3>💅 Nail Art Business Management System</h3>
-      <span class="tag">Python • Tkinter • Desktop App</span>
-    </div>
-
-    <p class="project-desc">
-      Developed a desktop-based management system to digitize salon operations including 
-      booking, billing, and customer management.
-    </p>
-
-    <ul class="project-points">
-      <li>Built a 4-module GUI application using Python (Tkinter)</li>
-      <li>Implemented booking, inventory, billing, and client record systems</li>
-      <li>Improved workflow efficiency and reduced manual tracking</li>
-      <li>Designed user-friendly interface for non-technical users</li>
-    </ul>
-
-    <div class="project-footer">
-      <a href="#" class="btn small">View Code</a>
-    </div>
-
-  </div>
-
-</div>
-```
 
   </div>
 </section>
+
+
 
 <!-- EXPERIENCE SECTION -->
 
 <section id="experience" class="experience-section">
   <div class="container">
 
-```
-<h2 class="section-title">Professional Experience</h2>
-<p class="section-subtitle">
-  Hands-on experience in cloud infrastructure, automation, and DevOps practices
-</p>
+    <h2 class="section-title">Professional Experience</h2>
 
-<div class="experience-wrapper">
-
-  <!-- EXPERIENCE 1 -->
-  <div class="experience-card">
-
-    <div class="exp-header">
-      <h3>DevOps Engineer Intern</h3>
-      <span class="company">DevOps Insiders</span>
-      <span class="duration">Nov 2025 – Present</span>
-    </div>
-
-    <p class="exp-summary">
-      Working on real-world cloud environments to design, automate, and optimize 
-      infrastructure and deployment workflows using modern DevOps practices.
+    <p class="section-subtitle">
+      Hands-on experience in cloud infrastructure, automation, and DevOps practices
     </p>
 
-    <ul class="exp-points">
-      <li>Provisioned and managed cloud infrastructure on <strong>Microsoft Azure</strong> using <strong>Terraform</strong>, ensuring consistent and repeatable deployments</li>
-      
-      <li>Designed and implemented <strong>CI/CD pipelines</strong> using GitHub Actions to automate build, test, and deployment processes</li>
-      
-      <li>Integrated <strong>DevSecOps tools</strong> (TFLint, TFSec, GitLeaks, Infracost) into pipelines to improve security, code quality, and cost visibility</li>
-      
-      <li>Automated routine operational tasks using <strong>Linux shell scripting</strong>, reducing manual effort and increasing efficiency</li>
-      
-      <li>Collaborated using <strong>Git & GitHub workflows</strong> including branching strategies, pull requests, and code reviews</li>
-      
-      <li>Contributed to <strong>Azure Landing Zone</strong> design and documentation aligned with Cloud Adoption Framework</li>
-    </ul>
+    <div class="experience-wrapper">
 
-    <div class="tech-stack">
-      <span>Azure</span>
-      <span>Terraform</span>
-      <span>CI/CD</span>
-      <span>GitHub Actions</span>
-      <span>Linux</span>
-      <span>DevSecOps</span>
+      <!-- EXPERIENCE 1 -->
+      <div class="experience-item">
+
+        <div class="experience-year">
+          <span>2025</span>
+        </div>
+
+        <div class="experience-line">
+          <span class="experience-dot"></span>
+        </div>
+
+        <div class="experience-content">
+
+          <div class="exp-header">
+            <h3>DevOps Engineer Intern</h3>
+            <span class="duration">Nov 2025 – Present</span>
+          </div>
+
+          <div class="company">
+            DevOps Insiders
+          </div>
+
+          <p class="exp-summary">
+            Working on real-world cloud environments to design, automate, and optimize
+            infrastructure and deployment workflows using modern DevOps practices.
+          </p>
+
+          <ul class="exp-points">
+
+            <li>
+              Provisioned and managed cloud infrastructure on
+              <strong>Microsoft Azure</strong> using <strong>Terraform</strong>,
+              ensuring consistent and repeatable deployments
+            </li>
+
+            <li>
+              Designed and implemented <strong>CI/CD pipelines</strong> using
+              GitHub Actions to automate build, test, and deployment processes
+            </li>
+
+            <li>
+              Integrated <strong>DevSecOps tools</strong>
+              (TFLint, TFSec, GitLeaks, Infracost) into pipelines to improve
+              security, code quality, and cost visibility
+            </li>
+
+            <li>
+              Automated routine operational tasks using
+              <strong>Linux shell scripting</strong>, reducing manual effort
+              and increasing efficiency
+            </li>
+
+            <li>
+              Collaborated using <strong>Git & GitHub workflows</strong>
+              including branching strategies, pull requests, and code reviews
+            </li>
+
+            <li>
+              Contributed to <strong>Azure Landing Zone</strong> design and
+              documentation aligned with Cloud Adoption Framework
+            </li>
+
+          </ul>
+
+          <div class="tech-stack">
+            <span>Azure</span>
+            <span>Terraform</span>
+            <span>CI/CD</span>
+            <span>GitHub Actions</span>
+            <span>Linux</span>
+            <span>DevSecOps</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- EXPERIENCE 2 -->
+      <div class="experience-item">
+
+        <div class="experience-year">
+          <span>2025</span>
+        </div>
+
+        <div class="experience-line">
+          <span class="experience-dot"></span>
+        </div>
+
+        <div class="experience-content">
+
+          <div class="exp-header">
+            <h3>Python Developer Intern</h3>
+            <span class="duration">Jul 2025 – Aug 2025</span>
+          </div>
+
+          <div class="company">
+            The Data Tech School
+          </div>
+
+          <p class="exp-summary">
+            Focused on building Python-based applications and automating processes
+            to improve efficiency and reduce manual workload.
+          </p>
+
+          <ul class="exp-points">
+
+            <li>
+              Developed modular applications using
+              <strong>Python (OOP)</strong>, improving code maintainability
+              and structure
+            </li>
+
+            <li>
+              Built a <strong>Tkinter-based GUI application</strong> for business
+              management including booking, billing, and user handling
+            </li>
+
+            <li>
+              Automated repetitive processes using Python scripts,
+              improving task efficiency by ~25%
+            </li>
+
+            <li>
+              Worked on real-world problem solving and application logic design
+            </li>
+
+          </ul>
+
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>Tkinter</span>
+            <span>Automation</span>
+            <span>OOP</span>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
-
-  </div>
-
-  <!-- EXPERIENCE 2 -->
-  <div class="experience-card">
-
-    <div class="exp-header">
-      <h3>Python Developer Intern</h3>
-      <span class="company">The Data Tech School</span>
-      <span class="duration">Jul 2025 – Aug 2025</span>
-    </div>
-
-    <p class="exp-summary">
-      Focused on building Python-based applications and automating processes to improve 
-      efficiency and reduce manual workload.
-    </p>
-
-    <ul class="exp-points">
-      <li>Developed modular applications using <strong>Python (OOP)</strong>, improving code maintainability and structure</li>
-      
-      <li>Built a <strong>Tkinter-based GUI application</strong> for business management including booking, billing, and user handling</li>
-      
-      <li>Automated repetitive processes using Python scripts, improving task efficiency by ~25%</li>
-      
-      <li>Worked on real-world problem solving and application logic design</li>
-    </ul>
-
-    <div class="tech-stack">
-      <span>Python</span>
-      <span>Tkinter</span>
-      <span>Automation</span>
-      <span>OOP</span>
-    </div>
-
-  </div>
-
-</div>
-```
 
   </div>
 </section>
 
+<!-- ================= EDUCATION SECTION ================= -->
+
+<section id="education" class="education-section">
+
+  <div class="container">
+
+    <h2 class="section-title">Education</h2>
+
+    <p class="section-subtitle">
+      Academic background and foundation in computer applications
+    </p>
+
+    <div class="education-wrapper">
+
+      <!-- MCA -->
+      <div class="education-item">
+
+        <div class="education-year">
+          2028
+        </div>
+
+        <div class="education-line">
+          <span class="education-dot"></span>
+        </div>
+
+        <div class="education-content">
+
+          <span class="education-level">
+            POSTGRADUATE
+          </span>
+
+          <h3>Master of Computer Applications (MCA)</h3>
+
+          <h4>Kurukshetra University</h4>
+
+          <p>
+            Expected May 2028
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- BCA -->
+      <div class="education-item">
+
+        <div class="education-year">
+          2026
+        </div>
+
+        <div class="education-line">
+          <span class="education-dot"></span>
+        </div>
+
+        <div class="education-content">
+
+          <span class="education-level">
+            UNDERGRADUATE
+          </span>
+
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+
+          <h4>Kurukshetra University</h4>
+
+          <p>
+            Completed May 2026
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 <!-- CONTACT SECTION -->
 
 <section id="contact" class="contact-section">
+
   <div class="container">
 
-```
-<h2 class="section-title">Let’s Build Something Together</h2>
-<p class="section-subtitle">
-  Open to DevOps, Cloud, and Automation opportunities — feel free to reach out
-</p>
+    <div class="contact-wrapper">
 
-<div class="contact-wrapper">
+      <!-- LEFT -->
+      <div class="contact-info">
 
-  <!-- LEFT SIDE (INFO) -->
-  <div class="contact-info">
+        <h3>Get in Touch</h3>
 
-    <h3>Get in Touch</h3>
+        <p>
+          I'm actively looking for opportunities where I can contribute as a
+          <strong>DevOps / Cloud Engineer</strong>, working on scalable systems,
+          automation, and modern infrastructure.
+        </p>
 
-    <p>
-      I'm actively looking for opportunities where I can contribute as a 
-      <strong>DevOps / Cloud Engineer</strong>, working on scalable systems, 
-      automation, and modern infrastructure.
-    </p>
+        <p>
+          Whether it's a full-time role, internship, or collaboration —
+          I'm always open to meaningful conversations.
+        </p>
 
-    <p>
-      Whether it's a full-time role, internship, or collaboration — 
-      I'm always open to meaningful conversations.
-    </p>
+        <div class="contact-details">
 
-    <div class="contact-details">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>chahatuteja74@gmail.com</span>
+          </div>
 
-      <div class="contact-item">
-        <i class="fas fa-envelope"></i>
-        <span>chahatuteja74@gmail.com</span>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Gurugram, India</span>
+          </div>
+
+        </div>
+
+        <div class="contact-socials">
+
+          <a href="https://linkedin.com/in/chahat-tuteja" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/chahatuteja74" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+        </div>
+
       </div>
 
-      
 
-      <div class="contact-item">
-        <i class="fas fa-map-marker-alt"></i>
-        <span>Gurugram, India</span>
-      </div>
+      <!-- RIGHT -->
+      <form class="contact-form">
+
+        <input
+          type="text"
+          placeholder="Your Name"
+          required
+        >
+
+        <input
+          type="email"
+          placeholder="Your Email"
+          required
+        >
+
+        <input
+          type="text"
+          placeholder="Subject"
+        >
+
+        <textarea
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+
+        <button type="submit" class="btn primary">
+          🚀 Send Message
+        </button>
+
+      </form>
 
     </div>
 
-    <!-- SOCIAL -->
-    <div class="contact-socials">
-      <a href="https://linkedin.com/in/chahat-tuteja" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-
-      <a href="https://github.com/your-username" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-
   </div>
 
-  <!-- RIGHT SIDE (FORM) -->
-  <div class="contact-form">
-
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <input type="text" placeholder="Subject">
-
-      <textarea rows="5" placeholder="Your Message"></textarea>
-
-      <button type="submit" class="btn primary">
-        🚀 Send Message
-      </button>
-    </form>
-
-  </div>
-
-</div>
-```
-
-  </div>
 </section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+  <p>© 2026 Chahat Tuteja. All Rights Reserved.</p>
+</footer>
+
+<script>
+document.querySelectorAll('.site-header__nav a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const target = document.querySelector(this.getAttribute('href'));
+
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
