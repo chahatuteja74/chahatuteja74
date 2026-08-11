@@ -8,6 +8,7 @@ I’m a results-driven DevOps Engineer with hands-on experience in **Azure, Terr
 
 ## 💼 About Me
 
+* 🎓 Currently pursuing **MCA** (Kurukshetra University)
 * 🎓 BCA Graduate (Kurukshetra University)
 * ☁️ Working with **Azure, AWS & GCP**
 * ⚙️ Passionate about **Infrastructure as Code & Automation**
