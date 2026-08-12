@@ -204,16 +204,18 @@ z-index: -1;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 120px 60px 80px;
 }
 
 .hero-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: 1fr 0.9fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
 
   align-items: center;
   gap: 70px;
@@ -224,7 +226,7 @@ z-index: -1;
 
 .hero-text {
   max-width: 650px;
-  text-align: left;
+  text-align: center;
 }
 
 .hero-text h1 {
@@ -270,225 +272,6 @@ z-index: -1;
 }
 
 
-/* ================= DEVOPS TERMINAL ================= */
-
-.hero-terminal {
-  width: 100%;
-  max-width: 520px;
-
-  justify-self: end;
-
-  background: rgba(8, 13, 23, 0.92);
-
-  border: 1px solid rgba(148, 163, 184, 0.18);
-
-  border-radius: 12px;
-
-  overflow: hidden;
-
-  box-shadow:
-    0 25px 70px rgba(0, 0, 0, 0.45),
-    0 0 35px rgba(34, 197, 94, 0.05);
-
-  font-family: "Courier New", monospace;
-}
-
-
-/* TERMINAL HEADER */
-
-.terminal-header {
-  height: 42px;
-
-  display: flex;
-  align-items: center;
-
-  padding: 0 15px;
-
-  background: rgba(255,255,255,0.035);
-
-  border-bottom: 1px solid rgba(148,163,184,0.12);
-}
-
-
-/* MAC STYLE DOTS */
-
-.terminal-dots {
-  display: flex;
-  gap: 7px;
-}
-
-.terminal-dots span {
-  width: 9px;
-  height: 9px;
-
-  border-radius: 50%;
-
-  background: #475569;
-}
-
-
-/* TERMINAL TITLE */
-
-.terminal-title {
-  margin-left: 12px;
-
-  color: #64748b;
-
-  font-size: 11px;
-}
-
-
-/* TERMINAL BODY */
-
-.terminal-body {
-  padding: 22px;
-
-  min-height: 340px;
-
-  color: #cbd5e1;
-
-  font-size: 13px;
-
-  line-height: 1.8;
-}
-
-
-/* COMMAND */
-
-.terminal-command {
-  color: #22c55e;
-}
-
-
-/* OUTPUT */
-
-.terminal-output {
-  color: #94a3b8;
-
-  margin-left: 15px;
-
-  margin-bottom: 12px;
-}
-
-
-/* SUCCESS */
-
-.terminal-success {
-  color: #4ade80;
-}
-
-
-/* WARNING */
-
-.terminal-warning {
-  color: #facc15;
-}
-
-
-/* CURSOR */
-
-.terminal-cursor {
-  display: inline-block;
-
-  width: 7px;
-  height: 15px;
-
-  margin-left: 3px;
-
-  vertical-align: middle;
-
-  background: #22c55e;
-
-  animation: terminalCursor 1s infinite;
-}
-
-@keyframes terminalCursor {
-
-  0%,
-  50% {
-    opacity: 1;
-  }
-
-  51%,
-  100% {
-    opacity: 0;
-  }
-
-}
-
-
-/* TERMINAL HOVER */
-
-.hero-terminal:hover {
-    border-color: rgba(34,197,94,0.35);
-
-    box-shadow:
-    0 25px 70px rgba(0, 0, 0, 0.5),
-    0 0 35px rgba(34, 197, 94, 0.08);
-
-    transform: none;
-}
-
-/* ================= HERO RESPONSIVE ================= */
-
-@media (max-width: 900px) {
-
-  .hero {
-    padding: 120px 30px 70px;
-  }
-
-  .hero-container {
-    grid-template-columns: 1fr;
-
-    gap: 45px;
-
-    text-align: center;
-  }
-
-  .hero-text {
-    max-width: 700px;
-
-    margin: 0 auto;
-
-    text-align: center;
-  }
-
-  .hero-terminal {
-    justify-self: center;
-
-    max-width: 600px;
-  }
-
-}
-
-
-@media (max-width: 768px) {
-
-  .hero {
-    padding: 110px 25px 60px;
-  }
-
-  .hero-text h1 {
-    font-size: 38px;
-  }
-
-  .hero-text h2 {
-    font-size: 17px;
-  }
-
-  .hero-terminal {
-    max-width: 100%;
-  }
-
-  .terminal-body {
-    min-height: 300px;
-
-    padding: 18px;
-
-    font-size: 11px;
-  }
-
-}
 
 /* ================= BUTTONS ================= */
 .btn {
