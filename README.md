@@ -130,22 +130,6 @@
 
 ---
 
-## 📈 GitHub Metrics & Activity
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=chahatuteja74&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chahatuteja74&layout=compact&theme=tokyonight&hide=html,css" />
-
-<br/>
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chahatuteja74&theme=tokyonight" />
-
-</div>
-
----
-
 ## 📬 Connect With Me
 
 <div align="center">
